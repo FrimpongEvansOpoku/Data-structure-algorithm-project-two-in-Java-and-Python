@@ -1,0 +1,48 @@
+
+// ITERATIVE ALGORITHMS IN PYTHON
+// Maximum Element 
+
+function maxElement(array):
+    max_value = array[0]
+    for each element in array:
+        if element > max_value:
+            max_value = element
+    return max_value
+
+
+// Example
+def max_element(array):
+    max_value = array[0]
+    for element in array:
+        if element > max_value:
+            max_value = element
+    return max_value
+
+# Example usage
+array = [3, 5, 7, 2, 8, 1]
+print("The maximum element is:", max_element(array))
+
+
+// Interactive Application
+def main_menu():
+    while True:
+        print("Select an algorithm:")
+        print("1. Maximum Element")
+        print("2. Factorial")
+        # Add more options here
+        choice = input("Enter your choice (0 to exit): ")
+        if choice == '0':
+            break
+        elif choice == '1':
+            # Code to handle maximum element
+            pass
+        elif choice == '2':
+            # Code to handle factorial
+            pass
+        # Add elif blocks for other algorithms
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main_menu()
+
